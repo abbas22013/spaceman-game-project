@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    background-image: url(https://thumbs.dreamstime.com/b/spaceman-wiitch-mission-wireless-internet-spaceman-wiitch-mission-wireless-internet-outer-space-128800693.jpg);
+}
+.game-container {
+    text-align: center;
+    background-color: #333;
+    padding:40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.word-container {
+    margin-bottom: 20px;
+}
+#guess {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ff6347;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+}
+button:hover {
+    background-color: #ff4500;
+}
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+#restart-btn:hover {
+    background-color: #45a049;
+}
+.hint-container {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+    font-style: italic;
+}
+#word {
+    font-size: 2rem;
+    /* padding: 0; */
+}
+#message {
+    font-weight: bold;
+}

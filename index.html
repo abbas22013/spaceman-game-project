@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaceman Game</title>
+    <script defer src="./app.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Spaceman Game</h1>
+        <h2>Guess the word related space you have six tries!</h2>
+        <div class="hint-container">
+            <p id="hint"></p>
+        </div>        
+        <div class="word-container">
+            <p id="word">_ _ _ _ _</p>
+        </div>
+        <div class="guess-container">
+            <input type="text" id="guess" placeholder="Enter your guess" />
+            <button id="guess-btn">Guess Word</button>
+        </div>
+        <div class="status-container">
+            <p id="attempts">Attempts left: 6</p>
+            <p id="message"></p>
+        </div>
+        <button id="restart-btn" style="display: none;">Restart Game</button>
+    </div>
+</body>
+</html>
